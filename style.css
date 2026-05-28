@@ -83,11 +83,11 @@ body::before {
 
     position: relative;
 
-    width: 92vw;
+    width: 98vw;
 
-    max-width: 900px;
+    max-width: 1100px;
 
-    height: 88vh;
+    height: 96vh;
 
     background-image: url("textos.png");
 
@@ -124,9 +124,9 @@ body::before {
 
 .texto {
 
-    width: 72%;
+    width: 82%;
 
-    height: 68%;
+    height: 82%;
 
     overflow-y: auto;
 
@@ -137,17 +137,22 @@ body::before {
     padding-right: 10px;
 }
 
-/* ===== PRE ===== */
+/* ===== TEXTO ORIGINAL ===== */
 
 pre {
 
     white-space: pre-wrap;
 
-    line-height: 1.9;
+    line-height: 2.1;
 
-    font-size: 1.05rem;
+    font-size: 1.28rem;
+
+    font-weight: bold;
 
     font-family: "Courier New", monospace;
+
+    text-shadow:
+        0 0 1px rgba(0,0,0,0.15);
 }
 
 /* ===== SCROLL ===== */
@@ -173,22 +178,22 @@ pre {
 
     .hoja {
 
-        width: 98vw;
+        width: 100vw;
 
-        height: 92vh;
+        height: 100vh;
     }
 
     .texto {
 
-        width: 80%;
+        width: 86%;
 
-        height: 72%;
+        height: 84%;
     }
 
     pre {
 
-        font-size: 0.95rem;
+        font-size: 1.15rem;
 
-        line-height: 1.7;
+        line-height: 2;
     }
 }
