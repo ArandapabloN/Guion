@@ -130,6 +130,8 @@ body::before {
 
     overflow-y: auto;
 
+    overflow-x: hidden;
+
     color: #111;
 
     z-index: 3;
@@ -142,6 +144,14 @@ body::before {
 pre {
 
     white-space: pre-wrap;
+
+    word-wrap: break-word;
+
+    overflow-wrap: break-word;
+
+    word-break: break-word;
+
+    width: 100%;
 
     line-height: 1.9;
 
@@ -182,9 +192,9 @@ pre {
 
     .texto {
 
-        width: 80%;
+        width: 84%;
 
-        height: 72%;
+        height: 74%;
     }
 
     pre {
